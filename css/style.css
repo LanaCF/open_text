@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.box {
+    display: inline-flex;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid silver;
+}
+
+summary {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
